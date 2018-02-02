@@ -1,16 +1,144 @@
-<!--DOCTYPE HTML-->
 <html>
     <head>
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <link rel="stylesheet" type="text/css" href="index.css"> 
     </head>
-    <body style='margin:0 auto; padding:0;'>
-        <div id='block' style="width:500px; height:300px; top:50%; left:50%;
-                              position:absolute; margin-left:-250px; margin-top:-150px;">
-            <img src="psd/about.png" onmouseover="this.src='gif/about.gif'" onmouseout="this.src='psd/about.png'">
-            <img src="psd/team.png" onmouseover="this.src='gif/team.gif'" onmouseout="this.src='psd/team.png'">
-            <img src="psd/news.png" onmouseover="this.src='gif/news.gif'" onmouseout="this.src='psd/news.png'">
-            <img src="psd/field.png" onmouseover="this.src='gif/field.gif'" onmouseout="this.src='psd/field.png'">
-            <img src="psd/sharing.png" onmouseover="this.src='gif/sharing.gif'" onmouseout="this.src='psd/sharing.png'">
-            <img src="psd/values.png" onmouseover="this.src='gif/values.gif'" onmouseout="this.src='psd/values.png'">
+    <script language="JavaScript" type="text/JavaScript">
+        function show{
+            
+        }
+    </script>
+    <body>
+        <div id="header">
+            <a href="http://www.chicony.com.tw/ch/page.php?level1_id=QCUlXiQjMUAlJV4kIw==">
+                <img src="logo.png" style="width:200px; height:30px;">
+            </a>
+            <div id="singin">
+                <p style="margin:0 auto; font-size:14px; line-height:30px; font-weight:200; letter-spacing:1px;">
+                    <a onclick="">登入</a> / <a>註冊</a>
+                </p>
+            </div>
+        </div>
+        <div id="welcome" class="page">
+            <div id="img1"></div>
+            <div id="img2"></div>
+            <img src="logoBig.png" id="logoBig">
+            <a href="index.html"> 
+                <img src="go.png" id="go" onmouseover="this.src='go2.png';" onmouseout="this.src='go.png';">
+            </a>
+        </div>
+        <div id="about" class="page">
+            about
+        </div>
+        <div id="material" class="page">
+            材質<br>銅 不鏽鋼
+        </div>
+        <div id="equipment" class="page">
+            加工設備<br>車床 銑床 未來新增
+        </div>
+        <div id="post" class="page">
+            協力後製工程<br>熱處理
+        </div>
+        <div id="test" class="page">
+            檢測設備 三次元
+        </div>
+        <div id="contact" class="contact">
+            聯絡資訊
+=======
+        <style type="text/css">
+            body{
+                box-sizing:border-box;
+            }
+            select{
+                z-index:3;
+            }
+            @keyframes go{
+                from{transform:rotate(0deg); transform-origin: 250px 214px;}
+                to{transform:rotate(360deg); transform-origin: 250px 214px;}
+            }
+            #img1{
+                position:absolute;
+                 top:20px;
+                 left:20px;
+                 width:500px;
+                 height:650px;
+                 z-index:1;
+                background-image: url(1.png);
+            }
+            #img2{
+                position:absolute;
+                 top:20px;
+                 left:20px;
+                 width:500px;
+                 height:650px;
+                 z-index:2;
+                background-image: url(2.png);
+                animation: 19s linear 0s normal none infinite go;
+            }
+             #img2:hover{
+                animation: 19s linear 0s normal none infinite go;
+            }
+        </style>
+    </head>
+=======
+        <style type="text/css">
+            body{
+                box-sizing:border-box;
+            }
+            select{
+                z-index:3;
+            }
+            @keyframes go{
+                from{transform:rotate(0deg); transform-origin: 250px 214px;}
+                to{transform:rotate(360deg); transform-origin: 250px 214px;}
+            }
+            #img1{
+                position:absolute;
+                 top:20px;
+                 left:20px;
+                 width:500px;
+                 height:650px;
+                 z-index:1;
+                background-image: url(1.png);
+            }
+            #img2{
+                position:absolute;
+                 top:20px;
+                 left:20px;
+                 width:500px;
+                 height:650px;
+                 z-index:2;
+                background-image: url(2.png);
+                animation: 19s linear 0s normal none infinite go;
+            }
+             #img2:hover{
+                animation: 19s linear 0s normal none infinite go;
+            }
+        </style>
+    </head>
+>>>>>>> 7c3f6dce9027881478931bf7f750a6b785fa34ba
+    <body>
+        <div id="all">
+            <select id="select_bar" onchange="changH2(this)">
+                <option value ="wind1">風機1號</option>
+                <option value ="wind2">風機2號</option>
+                <option value="wind3">風機3號</option>
+                <option value="wind4">風機4號</option>
+            </select>
+            <h2 id="title"></h2>
+            <script>
+                var select_bar=document.getElementById('select_bar');
+                function changH2(selectobj){
+                    document.getElementById('title').innerHTML=selectobj.options[selectobj.selectedIndex].text;
+                }
+            </script>
+            <div id="img1"></div>
+            <div id="img2"></div>
+<<<<<<< HEAD
+>>>>>>> 7c3f6dce9027881478931bf7f750a6b785fa34ba
+=======
+>>>>>>> 7c3f6dce9027881478931bf7f750a6b785fa34ba
         </div>
     </body>
 </html>
