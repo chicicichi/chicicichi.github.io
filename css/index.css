@@ -155,13 +155,23 @@ a {
     }
 
     #hi {
+        display: block;
         width: 205px;
         margin: -190px 0px 0px -300px;
     }
 
+    #hi_s {
+        display: none;
+    }
+
     #welcome {
+        display: block;
         width: 415px;
         margin: -250px 0px 0px -115px;
+    }
+
+    #welcome_s {
+        display: none;
     }
 
     #see_my_work_button {
@@ -195,13 +205,23 @@ a {
     }
 
     #hi {
+        display: block;
         width: 205px;
         margin: -190px 0px 0px -300px;
     }
 
+    #hi_s {
+        display: none;
+    }
+
     #welcome {
+        display: block;
         width: 415px;
         margin: -250px 0px 0px -115px;
+    }
+
+    #welcome_s {
+        display: none;
     }
 
     #see_my_work_button {
@@ -236,13 +256,23 @@ a {
     }
 
     #hi {
+        display: block;
         width: 210px;
         margin: -200px 0px 0px -310px;
     }
 
+    #hi_s {
+        display: none;
+    }
+
     #welcome {
+        display: block;
         width: 470px;
         margin: -305px 0px 0px -120px;
+    }
+
+    #welcome_s {
+        display: none;
     }
 
     #see_my_work_button {
