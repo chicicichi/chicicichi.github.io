@@ -76,8 +76,12 @@ a {
     z-index: -3;
 }
 
-#see_my_work_button {
+#project_works {
     z-index: 10;
+}
+
+#design_practice {
+    z-index: 9;
 }
 
 /* mobile ----------- */
@@ -124,9 +128,14 @@ a {
         margin: -220px 0px 0px -105px;
     }
 
-    #see_my_work_button {
+    #project_works {
         width: 140px;
-        margin: 180px 0px 0px -70px;
+        margin: 170px 0px 0px 0px;
+    }
+
+    #design_practice {
+        width: 140px;
+        margin: 170px 0px 0px -140px;
     }
 
     #curve_gray {
@@ -174,9 +183,14 @@ a {
         display: none;
     }
 
-    #see_my_work_button {
+    #project_works {
         width: 140px;
         margin: 250px 0px 0px 150px;
+    }
+
+    #design_practice {
+        width: 140px;
+        margin: 250px 0px 0px 10px;
     }
 
     #curve_gray {
@@ -224,9 +238,14 @@ a {
         display: none;
     }
 
-    #see_my_work_button {
+    #project_works {
         width: 140px;
         margin: 200px 0px 0px 250px;
+    }
+
+    #design_practice {
+        width: 140px;
+        margin: 200px 0px 0px 110px;
     }
 
     #curve_gray {
@@ -275,9 +294,14 @@ a {
         display: none;
     }
 
-    #see_my_work_button {
+    #project_works {
         width: 160px;
         margin: 200px 0px 0px 250px;
+    }
+
+    #design_practice {
+        width: 160px;
+        margin: 200px 0px 0px 90px;
     }
 
     #curve_gray {
